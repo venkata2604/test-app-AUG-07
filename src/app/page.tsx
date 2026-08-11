@@ -18,8 +18,8 @@ export default function Home() {
               About
             </Button>
 
-            <Button href="/projects" variant="outlined">
-              Projects
+            <Button href="/sample-one" variant="outlined">
+              Start Sample Pages
             </Button>
           </Stack>
         </Stack>
