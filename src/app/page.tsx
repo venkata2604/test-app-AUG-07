@@ -13,7 +13,7 @@ export default function Home() {
           </Typography>
 
           <Typography variant="h5" color="text.secondary">
-            Frontend developer learning Next.js and MUI.
+            Bla bla blaaa ..... bla bla
           </Typography>
 
           <Stack direction="row" spacing={2}>
