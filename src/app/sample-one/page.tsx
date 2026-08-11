@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 
 export default function SampleOnePage() {
@@ -14,11 +15,11 @@ export default function SampleOnePage() {
           </Typography>
 
           <Stack direction="row" spacing={2}>
-            <Button href="/" variant="outlined">
+            <Button component={Link} href="/" variant="outlined">
               Home
             </Button>
 
-            <Button href="/sample-two" variant="contained">
+            <Button component={Link} href="/sample-two" variant="contained">
               Next Page
             </Button>
           </Stack>
