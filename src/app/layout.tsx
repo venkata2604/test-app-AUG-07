@@ -1,3 +1,4 @@
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v16-appRouter";
 import NavBar from "./NavBar";
 
 export default function RootLayout({
@@ -8,8 +9,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <NavBar />
-                {children}
+                <AppRouterCacheProvider>
+                    <NavBar />
+                    {children}
+                </AppRouterCacheProvider>
             </body>
         </html>
     );
